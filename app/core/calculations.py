@@ -2,9 +2,7 @@ import numpy as np
 from app.core.config import settings
 
 
-# -------------------
 # Функции формул
-# -------------------
 def linear(x, k, b):
     """Линейная формула y = k*x + b"""
     return k * x + b
@@ -31,9 +29,7 @@ def sinusoidal(x, a, b, c):
     return a * np.sin(b * x + c)
 
 
-# -------------------
 # Словарь формул
-# -------------------
 formulas = {
     "linear": linear,
     "quadratic": quadratic,
@@ -42,9 +38,7 @@ formulas = {
     "sinusoidal": sinusoidal
 }
 
-# -------------------
 # Параметры по умолчанию
-# -------------------
 default_params = {
     "linear": [settings.default_linear_k, settings.default_linear_b],  # k, b
     "quadratic": [settings.default_quadratic_a, settings.default_quadratic_b, settings.default_quadratic_c],  # a, b, c
@@ -54,9 +48,7 @@ default_params = {
 }
 
 
-# -------------------
 # Вычисление формулы
-# -------------------
 def compute_formula(formula_name, x, params=None):
     """
     Вычисляет значения y по формуле.
