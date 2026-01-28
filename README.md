@@ -34,7 +34,7 @@
 ### 1. Клонирование репозитория
 ```bash
 git clone https://github.com/RinchoKazan/graph.git
-cd graph-generator
+cd graph-project
 ```
 
 ### 2. Создание виртуального окружения
