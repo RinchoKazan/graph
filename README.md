@@ -1,4 +1,3 @@
-Отличный проект! Вот готовый README.md файл, который хорошо структурирует информацию и подходит для размещения на GitHub/GitLab.
 
 ```markdown
 # Генератор графиков математических функций
@@ -34,8 +33,8 @@
 
 ### 1. Клонирование репозитория
 ```bash
-git clone https://github.com/ваш-username/graph-generator.git
-cd graph-generator
+git clone https://github.com/RinchoKazan/graph.git
+cd graph-project
 ```
 
 ### 2. Создание виртуального окружения
