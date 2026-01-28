@@ -33,7 +33,7 @@
 
 ### 1. Клонирование репозитория
 ```bash
-git clone https://github.com/ваш-username/graph-generator.git
+git clone https://github.com/RinchoKazan/graph.git
 cd graph-generator
 ```
 
